@@ -1,0 +1,58 @@
+.container-section-primary{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 80px 96px;
+    gap: 30px;
+}
+
+.information-container-for-creating-web-pages{
+    display: flex;
+    flex-direction: row;
+}
+.t-section-primary{
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    text-align: left;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #2f1c6a;
+}
+.p-section-primary{
+    margin: 8px 0px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #301c6b;
+}
+.percentage{
+    color: #683ee6;
+    font-weight: 700;
+}
+
+<div class="container-section-primary">
+        <div class="information-container-for-creating-web-pages">
+            <h1 class="t-section-primary">Todo lo que necesitás para crear una web</h1>
+            <p class="p-section-primary">Hasta <span class="percentage">72%</span> off en hosting + Creador de webs</p>
+            <span>AR$ 3899/mes</span>
+            <p>+3 meses gratis</p>
+            <button>Empezar</button>
+            <span>Garantía de 30 días: probalo sin cargo</span>
+        <div>
+        <div class="container-img">
+        <img class="img"  src="./img.avif">
+        </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" class="h-svgo-icon h-svgo-icon--small" style="fill:var(--primary--800);color:var(--primary--800);" data-v-16e4f5f8 data-v-03dae1ca>
+        <path fill="currentColor" d="M7.02 6.487c0-.541.44-.98.98-.98h.128c.47 0 .851.382.851.852a.735.735 0 0 1-.054.265.492.492 0 0 1-.052.097.158.158 0 0 1-.026.03l-.59.442C7.69 7.62 7.25 8.24 7.25 9.081a.75.75 0 0 0 1.5 0c0-.247.106-.461.408-.688l.589-.442c.533-.4.732-1.093.732-1.592a2.351 2.351 0 0 0-2.35-2.352H8a2.48 2.48 0 0 0-2.48 2.48.75.75 0 0 0 1.5 0ZM7.992 10.493a.75.75 0 0 0 0 1.5H8a.75.75 0 0 0 0-1.5h-.008Z">
+        </path>
+        <path fill="currentColor" fill-rule="evenodd" d="M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0Zm-1.5 0a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0Z" clip-rule="evenodd">
+        </path>
+        <path fill="currentColor" fill-rule="evenodd" d="M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0Zm-1.5 0a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0Z" clip-rule="evenodd">
+        </path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+</svg>
