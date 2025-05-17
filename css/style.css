@@ -12,7 +12,7 @@
 }
 
 .container-header{
-    width: 100vw;
+   /* width: 100vw;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -315,8 +315,12 @@
 }
 /*container general footer*/
 .container-general-footer{
-    padding: 50px 0 0; 
-    margin: 0px 200px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   /* padding: 50px 0 0; 
+    margin: 0px 200px 48px;*/
 }
 .container-footer-primary{
     display: flex;
@@ -417,16 +421,36 @@
     justify-content: end;
     align-items: end;
     position: static; 
+}
+.button-empezar{
+     background-color: #683ee6;
+     color: white;
+    padding: 8px 16px;
+    border: 1,7px solid black;
+    border-radius: 20px;
+    text-decoration-line: none;
+        font-size: 16px;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
      }
 @media screen and (max-width: 1370px){
     .img{
         width: 616px;
     }
-    .container-further{
+    /*.container-further{
         display: flex;
         flex-direction: column;
     }
     .card-credit-debit{
+        flex-direction: column;
+    }
+    
+    }*/
+ 
+
+    .container-licenses{
+        display: flex;
         flex-direction: column;
     }
 
@@ -473,6 +497,11 @@
     text-decoration-line: none;
     
 }
+    .container-licenses{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
 
 
@@ -484,6 +513,21 @@
     }
     .img{
         width: 688px;
+    }
+    .container-footer-cards-links{
+    
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: right;
+    
+}
+@media screen and (max-width: 800px){
+    .container-footer-logo-links{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: start;
+        
     }
     
 }
